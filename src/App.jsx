@@ -21,7 +21,7 @@ function App() {
         <div className="text-2xl">
         <Typewriter
                 options={{
-                    strings: ['Graphics Designer', 'Product Manager', 'technical writer'],
+                    strings: ['Graphics Designer', 'Art Director'],
                     autoStart: true,
                     loop: true,
         }}
@@ -31,15 +31,6 @@ function App() {
 
       <About />
       <Projects />
-
-      {/* <div className="animate__animated animate__slideInLeft mb-32">
-        <div className="w-[90%] mx-auto py-10 ">
-            <h5 className=" text-5xl mb-5">Let&apos;s Collaborate</h5>
-            <a href="mailto:adeyombotk@gmail.com" className="w-48 h-48 rounded-full flex text-black justify-center items-center font-medium text-xl bg-[#ffecd1] ">
-              EMAIL ME
-            </a>
-        </div>
-      </div> */}
 
       <div className="w-[90%] animate__animated animate__slideInLeft mx-auto py-10 text-3xl flex flex-col space-y-10 md:space-y-0 md:flex-row md:space-x-10 items-center text-[#ffecd1]">
         <div >
