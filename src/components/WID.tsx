@@ -1,6 +1,7 @@
 import { dm_serif } from "@/lib/fonts";
 import { GoTools } from "react-icons/go";
 import { TfiNotepad } from "react-icons/tfi";
+import { PiPackageFill } from "react-icons/pi";
 
 const WID = () => {
   return (
@@ -45,12 +46,14 @@ const WID = () => {
 
         <div className="flex my-10">
             <div className="flex-[1.5] ">
-                <h5 className={`${dm_serif.className}  uppercase text-3xl mb-4 `}>content strategy</h5>
+                <h5 className={`${dm_serif.className}  uppercase text-3xl mb-4 `}>Product Marketing and Content Development </h5>
                 <p className="text-xl">
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi sunt eaque quae animi, dolorum incidunt libero perferendis exercitationem deleniti. Non!
                 </p>
             </div>
-            <div className="flex-1"></div>
+            <div className="flex-1 lg:pt-44 flex justify-end items-end">
+            <PiPackageFill className='text-8xl opacity-30 animate-pulse' />
+            </div>
         </div>
       </div>
     </div>
