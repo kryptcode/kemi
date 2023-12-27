@@ -1,5 +1,6 @@
 import Header from '@/components/Header'
 import Hero from '@/components/Hero'
+import WID from '@/components/WID'
 import Image from 'next/image'
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <div>
           <Header />
           <Hero />
+          <WID />
       </div>
     </main>
   )

@@ -8,7 +8,7 @@ import 'animate.css';
 
 const Hero = () => {
   return (
-    <div className=''>
+    <div className='mb-16'>
         <div className="w-[90%] mx-auto flex justify-between relative py-7">
             <div className='flex-[1.3] '></div>
             <div className='flex-1 overflow-hidden w-full group relative'>
