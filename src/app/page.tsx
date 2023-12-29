@@ -24,8 +24,8 @@ export default function Home() {
               </p>
 
               <div className='flex-1 flex justify-center items-center'>
-                <a href="#">
-                <FaCircleChevronUp className='text-6xl text-[#0093A9]' />
+                <a href="#" className=''>
+                <FaCircleChevronUp className='text-6xl hover:animate-pulse text-[#0093A9]' />
                 </a>
               </div>
 
