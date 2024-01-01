@@ -13,8 +13,10 @@ export default function Home() {
           <WID />
           <Contact />
 
-          <div>
-            <div className='w-[90%] mx-auto flex justify-between items-center py-10 '>
+          <div className=''>
+            <div className=' h-[1.7px] bg-black my-9 ' />
+
+            <div className='w-[90%] mx-auto lg:flex hidden justify-between items-center py-5 '>
               <p className='text-2xl flex flex-1 space-x-2 items-center'>
                 <div>Made by</div>
                 <div className='group w-52'>
@@ -32,6 +34,17 @@ export default function Home() {
               <div className='flex-1'>
 
               </div>
+            </div>
+
+
+            <div className='w-[90%] lg:hidden mx-auto py-5 '>
+            <p className='text-4xl flex space-x-2 items-center'>
+                <div>Made by</div>
+                <div className='group w-52'>
+                  <a href="https://koyev3.vercel.app" target='_blank' className='text-[#0093A9]' >Koye</a>
+                  <div className="h-[1.7px] bg-[#0093A9] w-0 group-hover:w-24 transition-all ease-linear duration-[400ms] " />
+                </div>
+              </p>
             </div>
           </div>
       </div>

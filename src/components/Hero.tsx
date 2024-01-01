@@ -9,7 +9,7 @@ import 'animate.css';
 const Hero = () => {
   return (
     <div className='mb-16'>
-        <div className="w-[90%] mx-auto flex justify-between relative py-7">
+        <div className="w-[90%] mx-auto flex flex-col lg:flex-row justify-between relative py-7">
             <div className='flex-[1.3] '></div>
             <div className='flex-1 overflow-hidden w-full group relative'>
                 <Image src={heroImg} alt="" className='w-full group-hover:scale-110 transition-all duration-500 ease-linear' />
@@ -18,7 +18,7 @@ const Hero = () => {
 
             
 
-            <div className='absolute top-[10%] z-10 lg:w-[50%] animate__animated animate__fadeInLeft'>
+            <div className='hidden lg:block absolute top-[10%] z-10 lg:w-[50%] animate__animated animate__fadeInLeft'>
                 <div className=''>
                     <div className={` ${dm_serif.className} flex space-x-1 items-end`}>
                         <span className='text-[20rem] leading-none '>A</span>
@@ -41,6 +41,20 @@ const Hero = () => {
                     </span>
                 </p>
                 <p className="text-2xl py-5 pr-10 font-extralight  bg-[#eae8e0] ">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati delectus architecto ducimus laudantium quos optio dolorem vero odio eius debitis eaque nesciunt ea, et aut temporibus deleniti dolor corrupti dolores beatae ab culpa voluptatum, repellendus, aspernatur autem. Consectetur, non iure!
+                </p>
+            </div>
+
+            <div className='lg:hidden pt-10'>
+                <p className='text-2xl font-light'>
+                    <span className='flex space-x-3 items-center.'>
+                    Hi! I'm  Kemi.
+                    <div className='h-8 w-8 flex items-center justify-center hover:bg-[#0093A9] cursor-pointer transition-all ease-in-out duration-300 rounded-full '>
+                        <HiOutlineSpeakerWave className='text-lg' />
+                    </div>
+                    </span>
+                </p>
+                <p className="text-2xl py-5 pr-10  bg-[#eae8e0] ">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Obcaecati delectus architecto ducimus laudantium quos optio dolorem vero odio eius debitis eaque nesciunt ea, et aut temporibus deleniti dolor corrupti dolores beatae ab culpa voluptatum, repellendus, aspernatur autem. Consectetur, non iure!
                 </p>
             </div>

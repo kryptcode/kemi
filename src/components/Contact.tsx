@@ -7,7 +7,7 @@ const Contact = () => {
     <div>
         <div>
         <h2
-          className={` ${dm_serif.className} text-right text-[25rem] opacity-10 leading-none mb-16`}
+          className={` ${dm_serif.className} text-right text-[14rem] lg:text-[25rem] opacity-10 leading-none mb-16`}
         >
           003
         </h2>
@@ -22,14 +22,14 @@ const Contact = () => {
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, nulla!
             </p>
 
-            <div className='text-4xl flex items-center space-x-24'>
-                <div className='group w-44'>
+            <div className='text-2xl lg:text-4xl flex items-center space-x-12 lg:space-x-24'>
+                <div className='group w-32 lg:w-44'>
                   <Link href={'/'} className=" ">
                     Behance
                   </Link>
                   <div className="h-[1.7px] bg-black w-0 group-hover:w-full transition-all ease-linear duration-[400ms] " />
                 </div>
-                <div className='group w-48'>
+                <div className='group w-36 lg:w-48'>
                   <Link href={'/'} className=" ">
                     Hashnode
                   </Link>

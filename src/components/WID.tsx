@@ -8,13 +8,13 @@ const WID = () => {
     <div className="py-10">
       <div>
         <h2
-          className={` ${dm_serif.className} text-right text-[25rem] opacity-10 leading-none mb-16`}
+          className={` ${dm_serif.className}  text-right text-[14rem] lg:text-[25rem] opacity-10 leading-none mb-16`}
         >
           002
         </h2>
       </div>
       <div className="w-[90%] mx-auto ">
-        <div className="flex">
+        <div className="flex flex-col mb-4 lg:flex-row">
           <div className="flex-[1.5] ">
             <h3
               className={`${dm_serif.className} text-7xl uppercase font-medium mb-5 `}
@@ -26,13 +26,13 @@ const WID = () => {
             </p>
           </div>
           <div className="flex-1 lg:pt-64 flex justify-end items-end">
-            <div className="-rotate-45">
+            <div className="lg:-rotate-45">
                 <GoTools className='text-9xl opacity-30  animate-pulse' />
             </div>
           </div>
         </div>
 
-        <div className="flex my-10 mb-32">
+        <div className="flex flex-col lg:flex-row my-10 mb-32">
             <div className="flex-[1.5] ">
                 <h5 className={`${dm_serif.className}  uppercase text-3xl mb-4 `}>content strategy</h5>
                 <p className="text-xl">
@@ -44,7 +44,7 @@ const WID = () => {
             </div>
         </div>
 
-        <div className="flex my-10">
+        <div className="flex flex-col lg:flex-row my-10">
             <div className="flex-[1.5] ">
                 <h5 className={`${dm_serif.className}  uppercase text-3xl mb-4 `}>Product Marketing and Content Development </h5>
                 <p className="text-xl">
